@@ -180,9 +180,9 @@ function createVideoTexture(src) {
 
 const videoSources = {
   map1: createVideoTexture("/video/rød1.mp4"),
-  map2: createVideoTexture("/video/blå1.mp4"),
+  map2: createVideoTexture("/video/grøn3.mp4"),
   map3: createVideoTexture("/video/grøn3.mp4"),
-  map4: createVideoTexture("/video/blå1.mp4"),
+  map4: createVideoTexture("/video/blå2.mp4"),
   map5: createVideoTexture("/video/blå2.mp4"),
 };
 
