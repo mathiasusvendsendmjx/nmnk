@@ -197,7 +197,7 @@ const loader = new GLTFLoader();
 let navMesh, hitXZ, knapMesh;
 const raycaster = new THREE.Raycaster();
 
-loader.load("public/models/nmnk.gltf", (gltf) => {
+loader.load("/models/nmnk.gltf", (gltf) => {
   const world = gltf.scene;
   scene.add(world);
 
